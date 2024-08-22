@@ -11,3 +11,4 @@ print(type(cpf))
 print(type(dt_nascimento))
 
 
+

@@ -46,6 +46,7 @@ gastogasos2 =gaso2*(km2se/14)
 gastoalcos2 = alcool2*(km2se/12)
 
 #informando km, valor da gasolina e valor do alcool 3ª semana
+
 km3se= float(input('\nInforme quantos Km você percorreu na 3º semana: '))
 gaso3 =float(input('Digite o valor do litro de gasolina na 3º semana : '))
 alcool3 = float(input('Digite o valor do litro do álcool na 3º semana: '))
