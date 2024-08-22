@@ -24,33 +24,34 @@ print("----------------------------")
 print("        ATIVIDADE           ")
 print("----------------------------")
 
-nome = input("Digite seu nome: ")
-email = input("Digite seu email: ")
-tel = float(input("Digite seu telefone: "))
-valor_gasosa = float(input("Digite o valo da gasolina: "))
-valor_alc = float(input("Digite o valor do alcool: "))
-capacidade_tanq = 55
-distn = int(input("Digite a distancia percorrida no dia: "))
-kml = 14
+#informando nome, email e telefone
+nome =input('\nDigite seu nome completo: ')
+email =input('Digite o seu email: ')
+fone =int(input ('Digite o seu telefone: '))
 
-print("Nome: ",nome)
-print("E-mail: ",email)
-print("Telefone: ",tel)
+#informando km, valor da gasolina e valor do alcool 1ª semana
+km1se= float(input('\nInforme quantos Km você percorreu na 1º semana: '))
+gaso1 =float(input('Digite o valor do litro de gasolina na 1º semana : '))
+alcool1 = float(input('Digite o valor do litro do álcool na 1º semana: '))
+#variaveis de gasto 1º semana
+gastogasos1 =gaso1*(km1se/14)
+gastoalcos1 = alcool1*(km1se/12)
 
-total_per = (distn*2)(*5)*4
-vlrmensal = (total_per/kml)*valor_gasosa
-vlrmenalc = (total_per/kml)*valor_alc
-mddkms = total_per/4
+#informando km, valor da gasolina e valor do alcool 2ª semana
+km2se= float(input('\nInforme quantos Km você percorreu na 2º semana: '))
+gaso2 =float(input('Digite o valor do litro de gasolina na 2º semana : '))
+alcool2= float(input('Digite o valor do litro do álcool na 2º semana: '))
+#variaveis de gasto 2º semana
+gastogasos2 =gaso2*(km2se/14)
+gastoalcos2 = alcool2*(km2se/12)
 
-
-print(f"O valor mensal gasto na gasolina vai ser de: {vlrmensal:.2f}")
-print(f"O valor mensaç gasto no alcool vai ser de:{vlrmenalc:.2f}")
-print("O toltal de kilometros percorrido vai ser de: ",total_per, "KM")
-print("A media de kilometros semanalmete vai ser de: ",mddkms, "KMs")
-
-
-
-
+#informando km, valor da gasolina e valor do alcool 3ª semana
+km3se= float(input('\nInforme quantos Km você percorreu na 3º semana: '))
+gaso3 =float(input('Digite o valor do litro de gasolina na 3º semana : '))
+alcool3 = float(input('Digite o valor do litro do álcool na 3º semana: '))
+#variaveis de gasto 3º semana
+gastogasos3 =gaso3*(km3se/14)
+gastoalcos3 = alcool3*(km3se/12)
 
 
 
