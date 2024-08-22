@@ -16,3 +16,4 @@ sobrenome = input ("digite seu sobrenome: ")
 
 print(nome, sobrenome)
 print(type(sobrenome))
+

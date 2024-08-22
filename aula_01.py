@@ -9,3 +9,5 @@ print("Sua data de nascimento e: ",dt_nascimento)
 print(type(nome))
 print(type(cpf))
 print(type(dt_nascimento))
+
+

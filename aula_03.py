@@ -54,3 +54,4 @@ print(f"exponenciaçao: {expo}")
 print(f"resto da divisao: {modulo}")
 print()
 print(f"O numero digitado +1 e: {num1}")
+
